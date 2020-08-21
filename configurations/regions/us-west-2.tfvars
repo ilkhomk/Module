@@ -11,8 +11,9 @@ private_cidr3               =   "172.16.3.0/24"
 
 
 tags    =   {
+    Name                    =   "VPC_PROJECT"
     Environment             =   "Dev"
     Created_by              =   "Ilkhom"
-    Team                    =   "DevOps"
+    Team                    =   "Infrastructure"
     Department              =   "IT"
    }

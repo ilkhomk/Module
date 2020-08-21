@@ -1,6 +1,12 @@
 output "vpc" {
   value = "${module.wordpress.vpc}"
 }
+output "ec2-1" {
+  value = "${module.wordpress.ec2-1}"
+}
+output "ec2-2" {
+  value = "${module.wordpress.ec2-2}"
+}
 output "private_subnet1" {
   value = "${module.wordpress.private_subnets[0]}"
 }
